@@ -1,2 +1,2 @@
 # buildQwikEyes
-#try 1
+Cordova hybrid application - QwikEyes.
