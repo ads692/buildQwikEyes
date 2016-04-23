@@ -1,0 +1,18 @@
+<ion-view title="Account Settings">
+    <ion-content overflow-scroll="true" padding="true" scroll="false" class="has-header">
+        <form class="list">
+            <ion-item class="item-divider">About Us</ion-item>
+            <ion-list>
+                <ion-item ui-sref="aboutQwikEyes">QwikEyes</ion-item>
+            </ion-list>
+            <div class="spacer" style="width: 300px; height: 23px;"></div>
+            <ion-item class="item-divider">Security</ion-item>
+            <ion-toggle toggle-class="toggle-balanced" name="tch_id">Touch ID</ion-toggle>
+            <ion-item>Passcode</ion-item>
+        </form>
+        <ion-list>
+            <ion-item class="item-divider">Deactivate Account</ion-item>
+            <ion-item ui-sref="deleteAccount">Delete your account</ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
