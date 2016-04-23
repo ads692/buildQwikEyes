@@ -1,0 +1,25 @@
+<ion-view title="Signup">
+    <ion-content overflow-scroll="true" padding="true" scroll="false" class="has-header">
+        <form class="list">
+            <ion-list>
+                <label class="item item-input" name="name">
+                    <span class="input-label">Name</span>
+                    <input type="text" placeholder="John Doe">
+                </label>
+                <label class="item item-input" name="user_name">
+                    <span class="input-label">Username</span>
+                    <input type="email" placeholder="abc@xyz.com">
+                </label>
+                <label class="item item-input" name="psswd">
+                    <span class="input-label">Password</span>
+                    <input type="password" placeholder="********">
+                </label>
+            </ion-list>
+            <button id="signup-button9" class="button button-positive  button-block">Sign up</button>
+        </form>
+        <div>
+            <p>Feeling lazy? Sign up with your Facebook account instead!</p>
+        </div>
+        <a href="#" onclick="window.open('https://facebook.com', '_system', 'location=yes'); return false;" id="signup-button10" class="button button-positive  button-block">Sign up with Facebook</a>
+    </ion-content>
+</ion-view>
